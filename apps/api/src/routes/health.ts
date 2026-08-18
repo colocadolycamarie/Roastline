@@ -1,5 +1,4 @@
 import "cookie-parser";
-import "../types/express";
 import { Router, type IRouter } from "express";
 import { HealthCheckResponse } from "@workspace/api-schema";
 

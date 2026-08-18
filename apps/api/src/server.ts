@@ -1,5 +1,4 @@
 import "cookie-parser";
-import "./types/express";
 import { sql } from "drizzle-orm";
 import { db } from "@workspace/db";
 import app from "./app";

@@ -1,5 +1,4 @@
 import "cookie-parser";
-import "../types/express";
 import { randomBytes } from "node:crypto";
 import type { NextFunction, Request, Response } from "express";
 import { and, eq, gt } from "drizzle-orm";
