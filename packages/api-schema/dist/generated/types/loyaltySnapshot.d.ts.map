@@ -1,0 +1,1 @@
+{"version":3,"file":"loyaltySnapshot.d.ts","sourceRoot":"","sources":["../../../src/generated/types/loyaltySnapshot.ts"],"names":[],"mappings":"AAAA;;;;;;GAMG;AACH,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,eAAe,CAAC;AAEjD,MAAM,WAAW,eAAe;IAC9B,OAAO,EAAE,MAAM,CAAC;IAChB,eAAe,EAAE,MAAM,CAAC;IACxB,YAAY,EAAE,MAAM,CAAC;IACrB,cAAc,EAAE,MAAM,CAAC;IACvB,KAAK,EAAE,WAAW,EAAE,CAAC;CACtB"}

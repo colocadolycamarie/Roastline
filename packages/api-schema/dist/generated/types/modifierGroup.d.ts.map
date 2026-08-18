@@ -1,0 +1,1 @@
+{"version":3,"file":"modifierGroup.d.ts","sourceRoot":"","sources":["../../../src/generated/types/modifierGroup.ts"],"names":[],"mappings":"AAAA;;;;;;GAMG;AACH,OAAO,KAAK,EAAE,QAAQ,EAAE,MAAM,YAAY,CAAC;AAE3C,MAAM,WAAW,aAAa;IAC5B,EAAE,EAAE,MAAM,CAAC;IACX,IAAI,EAAE,MAAM,CAAC;IACb,QAAQ,EAAE,OAAO,CAAC;IAClB,OAAO,EAAE,QAAQ,EAAE,CAAC;CACrB"}
