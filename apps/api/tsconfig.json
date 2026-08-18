@@ -7,13 +7,5 @@
     "rootDir": "src",
     "types": ["node"]
   },
-  "include": ["src"],
-  "references": [
-    {
-      "path": "../../packages/db"
-    },
-    {
-      "path": "../../packages/api-schema"
-    }
-  ]
+  "include": ["src"]
 }
