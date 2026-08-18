@@ -6,15 +6,6 @@ import { db, sessionsTable, staffTable, type PublicStaff } from "@workspace/db";
 export const SESSION_COOKIE = "roastline_session";
 const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 30; // 30 days
 
-declare global {
-  // eslint-disable-next-line @typescript-eslint/no-namespace
-  namespace Express {
-    interface Request {
-      staff?: PublicStaff;
-    }
-  }
-}
-
 export async function createSession(staffId: string): Promise<{ token: string; expiresAt: Date }> {
   const token = randomBytes(32).toString("hex");
   const expiresAt = new Date(Date.now() + SESSION_TTL_MS);
