@@ -1,3 +1,5 @@
+import "cookie-parser";
+import "../types/express";
 import { Router, type IRouter } from "express";
 import { and, desc, gte, lt, sql } from "drizzle-orm";
 import { db, inventoryItemsTable, ordersTable } from "@workspace/db";

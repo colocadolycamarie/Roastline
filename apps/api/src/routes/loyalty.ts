@@ -1,3 +1,5 @@
+import "cookie-parser";
+import "../types/express";
 import { Router, type IRouter } from "express";
 import { asc, count, gte, sql } from "drizzle-orm";
 import { db, loyaltyCustomersTable, loyaltyTiersTable, loyaltyTransactionsTable } from "@workspace/db";

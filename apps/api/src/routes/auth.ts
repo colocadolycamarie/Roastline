@@ -1,3 +1,5 @@
+import "cookie-parser";
+import "../types/express";
 import { Router, type IRouter } from "express";
 import { z } from "zod/v4";
 import { count, eq } from "drizzle-orm";

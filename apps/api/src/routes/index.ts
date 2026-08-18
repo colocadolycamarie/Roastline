@@ -1,3 +1,5 @@
+import "cookie-parser";
+import "../types/express";
 import { Router, type IRouter } from "express";
 import { requireAuth } from "../middleware/session";
 import authRouter from "./auth";
