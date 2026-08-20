@@ -15,7 +15,7 @@ async function buildAll() {
   await rm(distDir, { recursive: true, force: true });
 
   await esbuild({
-    entryPoints: [path.resolve(artifactDir, "src/server.ts"), path.resolve(artifactDir, "src/app.ts")],
+    entryPoints: [{ in: path.resolve(artifactDir, "src/standalone.ts"), out: "server" }, { in: path.resolve(artifactDir, "src/app.ts"), out: "app" }],
     platform: "node",
     bundle: true,
     format: "esm",
@@ -51,3 +51,4 @@ buildAll().catch((err) => {
   console.error(err);
   process.exit(1);
 });
+
